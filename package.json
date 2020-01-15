@@ -1,0 +1,48 @@
+{
+    "name": "dashboard",
+    "version": "1.2.0",
+    "scripts": {
+        "serve": "vue-cli-service serve --open",
+        "dev": "npm run serve",
+        "build": "vue-cli-service build --watch",
+        "lint": "vue-cli-service lint --no-fix --fix"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bootstrap-vue": "^2.0.0-rc.19",
+        "bootswatch": "^4.3.1",
+        "chartist": "0.11.0",
+        "cssnano": "^4.1.10",
+        "google-maps": "3.3.0",
+        "jwt-decode": "^2.2.0",
+        "mdbvue": "^5.3.0",
+        "postcss-cssnext": "^3.1.0",
+        "postcss-import": "^12.0.1",
+        "postcss-loader": "^3.0.0",
+        "sugarss": "^2.0.0",
+        "vue": "2.6.10",
+        "vue-bootstrap4-table": "^1.1.6",
+        "vue-clickaway": "2.2.2",
+        "vue-cookies": "^1.5.13",
+        "vue-github-buttons": "3.1.0",
+        "vue-material": "1.0.0-beta-7",
+        "vue-phone-number-input": "^0.1.11",
+        "vue-router": "3.0.6",
+        "vue-social-sharing": "2.4.3",
+        "vue-sweetalert2": "^2.0.5",
+        "vuex": "^3.1.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "3.7.0",
+        "@vue/cli-plugin-eslint": "3.7.0",
+        "@vue/cli-service": "3.7.0",
+        "@vue/eslint-config-prettier": "^4.0.1",
+        "es6-promise": "4.2.6",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "5.2.2",
+        "jest": "^24.8.0",
+        "node-sass": "4.12.0",
+        "sass-loader": "7.1.0",
+        "vue-template-compiler": "2.6.10"
+    }
+}
